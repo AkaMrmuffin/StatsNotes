@@ -52,5 +52,23 @@
             - r = 1 means the strong positive relationship 
             - r =-1 means the strong negative relationship 
             - r = 0 means the no relationship 
+
+6. Regression 
+
+   Y and X-> y = ax + b 
    
+   'Line of Best Fit': minimize the sum of error s behind the observed y value and the y value predicted by the line 
+   
+   There are many different fitting method (Polynomial, Log ...) 
+   
+   a. Goodness of Fit r^2: (0-1)
+      - coefficient of determination
+      - low r^2 represents poor fit 
+      - high r^2 represents good fit 
+      - limitation: r^2 can be high for non-casuel 
+                    r^ can be low when theory says strong relationship 
+      - give you better idear about strenghth of relationship of 2 variables 
+      
+   b. Standard Error of Estimates: S
+      - RMSE
    
