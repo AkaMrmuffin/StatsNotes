@@ -34,3 +34,23 @@
       - 4th moment: Kurtosis
       
   d. 99.7% data are in +- 2.5 STD DEV  
+  
+5. Correlation 
+   
+   2 variables are related -> 1 variable can give the imformation of another variable 
+   
+   a. Qualitative v.s. Qualitative 
+      Factor Plot 
+      
+   b. Quantitative v.s. Qualitative 
+      Histogram 
+   
+   c. Quantitaive v.s. Quantitative 
+      Scatter Plot 
+        -> Calculate the correlation of covariance and Pearson's r to determine the relationship 
+        -> Pearson's R (-1 to 1) 
+            - r = 1 means the strong positive relationship 
+            - r =-1 means the strong negative relationship 
+            - r = 0 means the no relationship 
+   
+   
