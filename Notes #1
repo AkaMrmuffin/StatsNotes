@@ -1,11 +1,36 @@
 3.Dispersion: 
 
-5 number summary: Quartiles( 1 , median, 3) min and max -> plot boxplot show the dispersion of data
-  Q3 - Q1 = Interquartile Range 
+  5 number summary: Quartiles( 1 , median, 3) min and max -> plot boxplot show the dispersion of data
+    Q3 - Q1 = Interquartile Range 
 
-Others: Percential and Decile 
+  Others: Percential and Decile 
 
-Standard Deviation (s): represents how far on anverage observations in a variable are from mean
-Variance (S^2): we can not directly compare STD DEV of 2 variables that have different mean 
+  Standard Deviation (s): represents how far on anverage observations in a variable are from mean
+  Variance (S^2): we can not directly compare STD DEV of 2 variables that have different mean 
 
-Coefficient of Variabce: CV = STD/Mean
+  Coefficient of Variabce: CV = STD/Mean
+
+4. Histogram and Normal Curve: 
+
+  Histogram represents the probability distribution of a continuous variable. 
+  
+  Normal Curve represents the model (model is the simplification of reality) of that histogram.
+  
+  a. Draw Back of the histogram:
+      
+      - Bin widths are arbitray, different bin width can change the characteristics of the histogram
+      - Histogram degrade data from ratio data to the ordinal data
+      
+  b. Charactoristics of the Normal Distribution: 
+  
+      - Large sample size (# of observation) 
+      - Observations are completely independent of each other.
+      - Each individual observation is determined by random chance. 
+      
+  c. Moments of the mean 
+      - 1st moment: mean 
+      - 2nd moment: Variance 
+      - 3rd moment: Skewness 
+      - 4th moment: Kurtosis
+      
+  d. 99.7% data are in +- 2.5 STD DEV  
