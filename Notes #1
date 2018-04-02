@@ -1,0 +1,11 @@
+3.Dispersion: 
+
+5 number summary: Quartiles( 1 , median, 3) min and max -> plot boxplot show the dispersion of data
+  Q3 - Q1 = Interquartile Range 
+
+Others: Percential and Decile 
+
+Standard Deviation (s): represents how far on anverage observations in a variable are from mean
+Variance (S^2): we can not directly compare STD DEV of 2 variables that have different mean 
+
+Coefficient of Variabce: CV = STD/Mean
