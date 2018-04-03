@@ -1,0 +1,44 @@
+Probability and Smapling 
+  
+  1. Praobability (0 <= P <= 1)
+                
+                Statistical Experiment: A process where one outcome from a set of possible outcomes
+  
+                Elementary Outcome: Each Different Outcome
+   
+                Sample Space: All of the elementary outcomes 
+                 
+                Event: A subset of the sample space or a collection of elementary outcomes 
+                 
+  2. Random Variable - Numerical Function that assigns values to members of a sample space
+  
+                    A variable that is the outcomes of a statistical experiment.
+                    
+                    1. Discrete Random Variable 
+                    2. Continuous Random Varibale (Hard to get, Need Sample)
+                    
+                    Population: Total Sets of elements 
+                    
+                    Sample: A subset of the elements 
+                    
+                        a. Sampling Error: Uncertainty that arises from working a sample v.s. entire populaion 
+                        b. Sampling Bias: When the sampling procedure is not totally random 
+                        
+                        
+                    5 Steps Sampling Procedure: 
+                    
+                      1. Define the Population 
+                      2. Construct Sampling Frame (sample size)
+                      3. Select Sampling Design (sampling methods)
+                      4. Specify the information to be collect (data types)
+                      5. Collect data 
+                      
+                    Sampels - Probability Sample 
+                              a. Simple Random (all elements have equal probabilitis)
+                              b. Independent Random ( Independnet with previous selection
+                              c. Systematic
+                              d. Stratified 
+                              e. Cluster 
+                            
+                            - non-probaility Sample
+ 
