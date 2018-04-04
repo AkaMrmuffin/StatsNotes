@@ -36,9 +36,26 @@ Probability and Smapling
                     Sampels - Probability Sample 
                               a. Simple Random (all elements have equal probabilitis)
                               b. Independent Random ( Independnet with previous selection
-                              c. Systematic
-                              d. Stratified 
-                              e. Cluster 
-                            
+                              c. Systematic (Every nth element of sampling is chose, begin with randomly chosen point)
+                                 Pros: easier to operationalize 
+                                 Cons: Under or Over emphasize periodicities 
+                              d. Stratified (Split Pop into several groups and random sample from each group)
+                                 Pros: Avoid Bias 
+                                       sample is representative 
+                                       efficient
+                              e. Cluster (split pop into several groups and random sample the groups) 
+                                 Pros: Convinience 
+                                 Cons: Susceptible to bias 
+                                      
                             - non-probaility Sample
+                              a. judgemental (Personal judge decide which groups are sampled)
+                              b. Convinience (Talking on poeple randomly on street)
+                              c. Quota (Interviewers are assigned to a acquair data from certain groups)
+                              d. Volunteers (Sample is drawn from PoP self-select away)
+                              
+                    In Geography:
+                            
+                            Quadrant Sample 
+                        
+                            
  
