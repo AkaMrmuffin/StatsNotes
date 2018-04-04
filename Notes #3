@@ -1,1 +1,112 @@
 Inferential Statistics (Draw a Conclusion about population by using samples)
+
+Part I
+The basic idea is to use the point estimator to generate the infos about population. 
+    usually we have 
+                    Z = (sample mean - pop mean)/ pop standard deviation 
+                    
+                    then we can calcualate the dimensionless variable occuring probability by using P(z) equatuion or table 
+                    
+Point Estimation
+    - A Simple Number is calculated from the sample, and which can be used to best estimates of some unkonwn population parameter.
+    
+    
+    When Slecting Estimator
+         2 Elements (Bias and Efficiency) 
+         - Bias high: Sample Value > Pop Stat
+           Bias low: Sample Value < Pop Stat
+           
+         - Efficiency high: low Variance 
+           Efficiency low: High Variance 
+ 
+ Part II
+ 1. A Confidence Interval presents a range of values with a specified probability that the population statistics lies 
+    with those value. 
+    
+    95% confidence interval (Standard)
+      
+      Sample STD DEV = (POP STD DEV)/ (Square Root of Sample Size)
+      
+      The idea is to calculat the range of confidence interval for Pop Mean
+     
+      a. z-score      
+      P (sample mean - 1.96*sample STD <= Pop Mean <= sample mean + 1.96*sample STD) = 0.95 
+      
+            1.96 is Z score 
+            
+      b. Student t-score
+      P(sample mean - t-score * (Sample STD/Square Root of Sample Size) <= Pop Mean <= sample mean + t-score * (Sample STD/Square Root of Sample Size)) = 0.95 
+          
+          We use studnet t only when x is normal 
+          - 2 tailed 0.95 
+          - 1 tailed 0.0.25
+          
+      c. Suitable Sample Size 
+         - can be calculated based on the Z-score, Pop STD , and Pop mean precision 
+         
+         - n = ((Z-score * Pop STD)/(Pop-mean Precision))^2
+    
+    Part III
+    
+    1. Binomial Varibale - result of random process 
+       a. (pi) is probability of certain outcome ocuuring (Pop Mean)
+       b. draw a smaple from the population, we can calculate the sample probability P
+       c. Sample probability (P) is normally distributted around (pi) with 
+              Pop STD = root square((pi*(1-pi))/sample size(n)) 
+       d. follows C.L.T
+       
+    2. 6-Steps of Hypothesis Test
+       
+       a. Formulation of Hypothsis
+          Null Hypothesis and Alternate Hypothesis 
+          usually reject H0
+          
+       b. Specification of Sample Statistics and its Sampling Distribution 
+          Point Estimator 
+          Normal Distribution 
+          
+       c. Selection of a level of significance
+          significant level: a 
+          confidence level: 1-a 
+          
+       d. Construction of Decision Rule 
+          2-tail or 1-tail
+          not same -> 2 tail 
+          larger or smaller -> 1 tail 
+          
+       e. Compute the value of test statistics
+          Calculate the Sample Probability (P)
+          
+       f. Decision 
+          Checking against the critical value, if critical value is 0.073 
+          P > 0.073 if P = 0.08
+          H0 = pi <= 0.04
+          HA = pi >= 0.04
+          
+          0.08 > 0.04 
+          
+          we reject H0 and accept HA
+    
+    Part IV (P-Value)
+    1. P-Value Based Hypothesis Test
+       
+       All same until compute the value of test statistics (Step 5)
+       
+       calculate the Z-score:
+       
+       Z = (PoP probability - hypothesis probability)/PoP standard Deviation 
+       
+    2. Limitation of P-value: 
+      
+       a. Designed as quick way to check whether the result was signifiacnt enough to warrant further attension 
+       b. It's not telling you HA is true, its jest telling you how much probability that your H0 is sampling error
+       c. P-value is vulnerable, easy to be mannuly manipulated 
+       d. Statical signifaicant != useful 
+         
+        
+    
+            
+         
+                    
+    
+            
