@@ -55,7 +55,19 @@ Probability and Smapling
                               
                     In Geography:
                             
-                            Quadrant Sample 
+                            1. Quadrant Sample: Point Sample 
+                            2. Transect Sample: A line is made across the space and samples taken across the line (usually continious variables) 
+                            3. Point Sampling
+                            
+                            Sampling Frame (Maps, Grid, Coordinates) 
+                            
+                    Central Limit Theorem (C.L.T) 
+                            
+                            Regardless of the distribution of a population for a sufficiently large sample size (n), the distribution of
+                            Sampling mean (X_bar) will be approximately normal around the population mean (u) with Sample STD DEV
+                            
+                            Sample STD_DEV = (POP STD_DEV)/(Square Root of sample size (n))
+                       
                         
                             
  
