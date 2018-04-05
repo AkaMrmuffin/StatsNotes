@@ -104,9 +104,24 @@ Point Estimation
        d. Statical signifaicant != useful 
          
         
-    
+    Part V (Two Samples)     
             
-         
-                    
+    The Two Samples inferential test usually test the difference of variance between two samples (F-test)
+            Two-tailed       One-tailed 
+    H0:     u1-u2 = D0       u1-u2<=D0
+    HA:     u1-u2!= D0       u1-u2 >D0
+    
+    Difference between two means 
+    
+    1st we need to determine whether the Variances of populations are statistically equal 
+    by using F-test  F = Sample1 variance/ Sample2 variance with degree of freedom df(n2-1),(n1-1)
+    
+    1st scneario: Variance of PoP statistically equal 
+                  Use Equation to calculate t-score, if t-score/p-value < significance level (a) then reject H0
+                  
+    2nd scneario: unequal               
+                  
+    
+    
     
             
