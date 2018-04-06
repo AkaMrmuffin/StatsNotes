@@ -1,2 +1,71 @@
 Non-Parametric Test: 
 
+ 1. Condition of Parametric Test
+    a. Sample Distribution is known  (C.L.T)
+    b. Population is normally distributed
+    c. Sample Size is sufficiently large (C.L.T only works when sample size is large enough)
+    d. Sampling is random and independent
+    e. The data has to be interval/ratio scale data 
+    f. Pulling from 2 population, the variance needs to be equal
+    
+ 2. Condition of Non-Parametric Test
+    a. underlying probability distribution is unknow or non-normal
+    b. ordinal or nominal scale data 
+    c. central tendency is not mean 
+    d. it is also can be used on normally distributed data 
+    
+    !!!!! If we dont knoe the pop standard error, we use sample STD and t-test
+    
+ Non-Parametric Tests are not as powerful and as efficient as parametric test. 
+ 
+ Non-parametric test Types: 
+ 1. Goodness of Fit Tests: 
+ 
+    if the probability distribution of a random variable fits a given theoritical probability distribution 
+    Probability of getting 0 or less. 
+ 
+ 2. Kolmogorov - Smirnov Test 
+ 
+    sort the sample 1st 
+    test the maximum difference (D) between a theoretical Distribution (F(x)) and the sanpling distribution (S(x)).
+    H0: D = 0 
+    HA: D != 0 
+  
+  3. Chi-Square test 
+  
+    compare on observed distribution of nominal scale (Quantitative Data) variables to a theoretical distribution 
+    
+    H0: X^2 = 0  -> Sample Dist match theoretical Dist 
+    HA: X^2 > 0  -> Sample Dist does not match theoretical Dist
+    
+  4. Kernal Estimation 
+  
+  
+Median Based Test: 
+  
+  1 sample scenario
+  
+  step 1: turn variables into a binomial variables where each value is either greater or less than a hypothesized median (m0)
+  step 2: sample median (m) is identical to the hypothesized median, proportion of each outcome for the binomial variable is 0.5 
+  step 3: Different than 0.5 (m != m0)
+  
+  2 samples scenario 
+  
+  Mean-Whitney Test 
+  test whether 2 pops have same median 
+  H0: mx = my 
+  HA: mx != my
+  
+  Ordinal-scale 
+  the sample size donot need to be the same 
+  There is no confidence interval for median test 
+  
+  So we use Bootstrapping
+  we treat the samples as population, and then we sample the samples based on the sample's size (n) and repeat process n^n times 
+  1. choose confidence inteval 1-a 
+  2. bootstrap B values (B > 1000) 
+  3. sort B values and find the target reference j (j=(B-a)/2)
+  4. Finding the upper limit of confidence interval kth element 
+      k = (B(1-a))/2
+  
+  
