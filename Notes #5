@@ -1,0 +1,53 @@
+ANOVA - Analysis of Variance 
+
+Part I 
+
+Key Point: Analysis the difference of means for 2 or more sample groups 
+
+e.g. 3 "treatments" at the park grass experiment 
+      
+     3 groups, each with 6 samples 
+     
+     Treatment      A     B     C
+     sample means   Y1    Y2    Y3
+     H0:    Y1 = Y2 = Y3
+     HA:    At least one mean (Y) differs from others 
+     
+   sample variance  S1    S2    S3
+   
+   Calculate 1. Mean of means Y1+Y2+Y3/ 3 
+   
+             2. Variance of means 
+             
+             3. Pop variance / pooled variance = samples (# of treatment) * vaiance of means 
+             
+             4. F-test with F = ((# of treatment) * variance of means) / pop variance 
+                                            df: # treatment - 1           df: (# of obs -1) * treatments 
+                                            
+                               H0: F <= 1 
+                               HA: F > 1 
+                               
+  Part II 
+  pairwise testing 
+  
+  1. least significant difference test 
+  2. tukeys's honest significant difference test 
+  3. Scheffe's Contrast Method -> Most flexible one 
+  
+  H0: Y1 = Y2 or Y3 = Y2 or Y3 = Y1 
+  
+  HA: Y1 != Y2 or Y3 != Y2 or Y3 != Y1 
+  
+  contrast: L = Y1*C1 + Y2*C2
+            C1 = 1     C2 = -1 
+            
+  L - S*a <= L0 <= L+ S*a 
+  
+  L -> contrast 
+  S -> A score that dependes on our confidence level 
+  a -> An estimate of the standard deviation of the "L" statistics 
+  
+  ANOVA is a parametric test: it can tolerate a small amount of non-normlity or heteroscedasticity 
+  
+  
+  
