@@ -1,0 +1,93 @@
+Inferential Linear Regression 
+
+Part I 
+r^2 -> goodness of fit 
+
+r^2 can be very high (non-casual)
+r^2 can be very low (theory suggests strong)
+
+RMSE: Syx = ((sum of error)^2/(n-2))
+
+Assumptions of linear regression:
+
+               1. Residuals should be randomly distributed around regression line 
+               2. Variance of the residuals should be constant for all values of x (Homoscedasticity)
+               3. dependent variable needs to be free from autocorrelation. 
+               4. residuals needs to be normally distributed. 
+               5. x is random variable, the distribution of x and y should be bivariate normal with mean center at B
+               
+               residuals: randomly distributed, costant variance, and normally distributed (mean = B). 
+               
+ 
+Part II 
+
+y = ax + b 
+
+we can run the inferential test for slope (a), y-intercept (b), and correlation coefficient (p)
+
+with different equations H0: a,b,p = 0 
+                         HA: a,b,p != 0 
+                   
+                   A t-score at confidence level alpha with n-2 degree of freedom and standard error of the estimator 
+                   
+                   e.g.       b - t*Sb <= B <= b + t*Sb
+                   
+                   
+Part III
+
+Checking the Assumptions
+
+1. plot histogram for residual, the mean should be center at 0 
+2. Q-Q plot 
+   points should cluster on ghe normal line if the resiudals are normally distributed 
+
+3. Residual v.s. Fited Y 
+   variance of residual is constant across plot 
+   
+   if plot is spreading pattern: non-linear relationship 
+   if plot is upsidedown v: residuals are not homosecedastic 
+   if plot tilted right-up: variable change over time 
+   
+4. Check the pattern between residuals and other variables, if pattern exist, we may need to add another independent variable
+   
+
+Part IV
+
+Multi-Regression 
+
+Y =aX1 + bX2 + c 
+
+1st: Use Pearson's correlation matrix to find the relationship (strongest to weakest) 
+     also can find the multicollinearity 
+     
+2nd: r^2 -> how much of our total variance (TSS) was explanined by the regreesion sum of squares 
+
+     a. ANOVA can test the inferential of multi-regression model 
+     b. f-test, chose the most significant model
+     
+ Check the Multicollinearity to determine # of independent variables in the model 
+ 
+ Use R^2 and Adjusted R^2 to evaluatre the fitting of model and determine the best model
+ 
+ - Best + Simplest, Adjusted R^2 
+ 
+ Find the oulier or influentual observations 
+ 1. check the difference slope when removing observations 
+          Db = Bk - Bk (i)
+ 2.    ....   difference of residuals ......
+          De = ei - e i(i)
+          
+ 
+ If the model is not linear, Non-Linear -> Linear
+ 
+ Model Validation: 1. Use differnt dataset ( traning set - 75% build model)
+                   2. Use testing dataset to check the model (25%)
+ 
+ 
+ 
+ 
+     
+
+     
+
+
